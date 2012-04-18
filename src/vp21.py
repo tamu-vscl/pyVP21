@@ -7,7 +7,7 @@
 
     This file defines a VP21 instruction subset for the PowerLite Home Cinema
     8350 projector. For a complete description of the VP21 protocol for use in
-    adding support for other projector models, see "ESC/VP21 Command User’s 
+    adding support for other projector models, see "ESC/VP21 Command User's 
     Guide for Home Projectors", available at: 
     http://files.support.epson.com/pdf/pltw1_/pltw1_cm.pdf
 
