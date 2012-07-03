@@ -16,7 +16,7 @@ import logging
 import serial
 import sys
 import time
-import vp21
+import pyVP21.lib.vp21
 
 
 # Set up logging.
@@ -43,7 +43,7 @@ class Projector(object):
         Interfaces with an Epson projector over a serial connection.
     """
     def __init__(self,
-                 port=None, 
+                 port=None,
                  baud=BAUD_RATE,
                  timeout=TIMEOUT,
                  heartbeatPeriod=HEARTBEAT_PERIOD):
